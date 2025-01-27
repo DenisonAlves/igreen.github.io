@@ -1,0 +1,35 @@
+.lei-bg{
+  background: var(--cor-07);
+}
+
+.lei{
+  display: grid; 
+  grid-template-columns: 1fr 3fr;
+  background: var(--cor-08);
+  padding: 60px;  
+  gap: 15px;  
+}
+
+.lei-sub{   
+  font-size: 0.75rem;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  background: var(--cor-07);
+  text-transform: uppercase;
+  font-weight: bold;
+  align-self: center;
+}
+
+.lei p{
+  font-family: 'Forum', serif;  
+  font-size: 1.5rem;
+}
+
+.lei-link{
+  background: var(--cor-03);
+}
+
+.lei .botao{
+  margin: 0 auto;
+}

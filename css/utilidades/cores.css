@@ -1,0 +1,44 @@
+
+
+:root {
+  --cor-00: #ffffff; /*fundo default*/
+  --cor-01: #35A72A; /*fundo 2*/
+  --cor-02: #EC661F; /*btn 1*/
+  --cor-03: #E75407; /*btn 2*/
+  --cor-04: #B1F670; /*titulo club*/  
+  --cor-05: #212121; /*font2*/    
+  --cor-06: #298025; 
+  --cor-07: #146810;
+  --cor-08: #0F4A0C;
+
+}
+
+
+.cor-00 {
+  color: var(--cor-00);
+}
+.cor-01 {
+  color: var(--cor-01);
+}
+.cor-02 {
+  color: var(--cor-02);
+}
+.cor-03 {
+  color: var(--cor-03);
+}
+.cor-04 {
+  color: var(--cor-04);
+}
+.cor-05 {
+  color: var(--cor-05);
+}
+.cor-06 {
+  color: var(--cor-06);
+}
+.cor-07 {
+  color: var(--cor-07);
+}
+.cor-08 {
+  color: var(--cor-08);
+}
+

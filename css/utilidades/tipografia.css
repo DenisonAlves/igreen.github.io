@@ -1,0 +1,20 @@
+
+.font-1-tittle {
+  font: 800 4rem 'Epilogue', sans-serif; /*52px*/ 
+  line-height: 66px;
+}  
+.font-1-sub {
+  font: 600 3rem 'Epilogue', sans-serif; /*36px*/
+  line-height: 54px;
+}
+.font-1-nav {
+  font: 500 1.25rem 'Epilogue', sans-serif; /*20px*/
+  line-height: 30px;
+}
+
+
+@media(max-width: 1200px) {    
+.font-1-sub {
+  font-size: 1.75rem;
+}
+}

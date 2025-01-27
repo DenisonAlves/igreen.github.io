@@ -1,0 +1,18 @@
+@import "./global/global.css";
+
+
+@import "./home/header.css";
+@import "./home/introducao.css";
+@import "./home/etapas.css";
+@import "./home/lei.css";
+@import "./home/club.css";
+@import "./home/clientes.css";
+@import "./home/vantagens.css";
+@import "./home/footer.css";
+
+
+
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
