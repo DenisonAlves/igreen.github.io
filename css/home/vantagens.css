@@ -87,8 +87,12 @@
 }
 
 @media (max-width:570px){  
+  .vantagens-titulo h1{
+    font-size: 3rem;
+    line-height: normal;
+  }
   .vantagens-quadro {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;    
   }
 }
 
