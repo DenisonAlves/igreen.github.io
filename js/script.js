@@ -25,5 +25,51 @@ msg1.onclick = function() {document.getElementById('msg1').style.visibility = "h
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const clienteImgs = document.querySelectorAll('.cliente-img');
+    let currentIndex = 0;
+  
+    function updateOpacity() {
+      clienteImgs.forEach((img, index) => {
+        img.style.opacity = index === currentIndex ? '1' : '0.5';
+      });
+      currentIndex = (currentIndex + 1) % clienteImgs.length;
+    }
+  
+    setInterval(updateOpacity, 2000);
+    updateOpacity(); // Initialize the first state
+  });
 
 
+
+
+
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const etapaImgs = document.querySelectorAll('.etapa-img');
+  
+    function checkVisibility() {
+      const triggerBottom = window.innerHeight / 5 * 4;
+  
+      etapaImgs.forEach((img, index) => {
+        const imgTop = img.getBoundingClientRect().top;
+  
+        if (imgTop < triggerBottom) {
+          if (window.innerWidth > 600) {
+            setTimeout(() => {
+              img.classList.add('visible');
+              setTimeout(() => {
+                img.classList.add('zoom');
+              }, 1800); // Add zoom class after initial animation
+            }, index * 200); // Delay each image by 800ms
+          } else {
+            img.classList.add('visible');
+          }
+        }
+      });
+    }
+  
+    window.addEventListener('scroll', checkVisibility);
+    window.addEventListener('resize', checkVisibility);
+    checkVisibility(); // Initial check
+  });
