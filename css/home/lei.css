@@ -33,3 +33,9 @@
 .lei .botao{
   margin: 0 auto;
 }
+
+@media (max-width:500px) {
+  .lei{
+    grid-template-columns: 1fr;
+  }
+}
