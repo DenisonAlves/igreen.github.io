@@ -3,11 +3,9 @@
 }
 
 .clientes{
-  background: var(--cor-07);
+  background: var(--cor-08);
   padding: 80px;  
-  border-left: 10px solid var(--cor-08);
-  border-right: 10px solid var(--cor-08);
-  border-bottom: 10px solid var(--cor-08);
+  border-top: 20px solid var(--cor-07);  
 }
 
 .clientes p{
