@@ -5,7 +5,7 @@
 .clientes{
   background: var(--cor-08);
   padding: 80px;  
-  border-top: 20px solid var(--cor-07);  
+  border-top: 2px solid var(--cor-04);  
 }
 
 .clientes p{
