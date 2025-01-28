@@ -1,11 +1,6 @@
-.clientes-bg{
-  background: var(--cor-07);
-}
-
 .clientes{
-  background: var(--cor-08);
-  padding: 80px;  
-  border-top: 2px solid var(--cor-04);  
+  background: var(--cor-06);
+  padding: 80px;   
 }
 
 .clientes p{
@@ -20,6 +15,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 60px;
   margin-top: 80px;
+}
+
+@media (max-width:850px){
+  .clientes .font-1-tittle{    
+      font-size: 2.25rem;
+      line-height: normal;    
+  }
 }
 
 @media (max-width:780px){

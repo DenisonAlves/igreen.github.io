@@ -1,8 +1,4 @@
-.introducao-bg{
-  background: var(--cor-07);
-  position: relative;
-  z-index: 0;
-}
+
 
 .introducao{  
   background-color: rgba(0,0,0,0.35);
@@ -13,16 +9,17 @@
   align-items: center;
   justify-items: center; 
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .introducao-titulo{
-  max-width: 630px;
-  position: relative;    
+  max-width: 630px;   
   z-index: 1;  
 }
 
 .introducao a{
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .destaques {
@@ -33,11 +30,12 @@
 }
 
 .introducao-video {
+  position: absolute;
+  left: 0;   
+  top: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
   object-fit: cover;
-  left: 0;   
   z-index: -9999;
   
 }

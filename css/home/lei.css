@@ -1,7 +1,3 @@
-.lei-bg{
-  background: var(--cor-07);
-}
-
 .lei{
   display: grid; 
   grid-template-columns: 1fr 3fr;

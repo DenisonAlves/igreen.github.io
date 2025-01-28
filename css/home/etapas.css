@@ -1,6 +1,3 @@
-.etapas-bg{
-  background: var(--cor-07);  
-}
 .etapas {
   background: var(--cor-06);  
   display: grid;
@@ -23,7 +20,7 @@
   font: 600 2em 'Epilogue', sans-serif;
   line-height: normal;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px;
   border-radius: 5px;  
   background: var(--cor-03);
@@ -181,7 +178,19 @@
     width: 320px;
     height: 240px;        
   }
+  .etapas p {
+    font-size: 1rem;
+  }   
 }
+
+@media (max-width: 380px){
+  .etapas iframe{        
+    width: 240px;
+    height: 160px;        
+  }
+}
+
+
 
 
 
