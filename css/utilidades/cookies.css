@@ -1,0 +1,43 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white; 
+  padding: 15px;
+  z-index: 1000;  
+}
+
+.cookie{
+  display: grid;
+  grid-template-columns: 1fr;   
+}
+
+.cookie-banner p { 
+  font-size: 1rem;
+  font-family: "Epilogue", sans-serif;  
+  margin-bottom: 10px;
+}
+
+.cookie-banner a {
+  color: var(--cor-04);
+  text-decoration: underline;
+}
+.cookie-button{
+  display: grid;
+  grid-template-columns: 120px 120px;
+  gap: 10px;
+}
+.button {
+  background-color: var(--cor-06);
+  font-family: "Epilogue", sans-serif;
+  border: none;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 5px;  
+}
+
+.button:hover {
+  background-color: var(--cor-07);
+}
+
